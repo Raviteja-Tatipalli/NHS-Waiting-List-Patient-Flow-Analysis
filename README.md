@@ -97,11 +97,9 @@ YearMonthSort =
 YEAR(Dim_Date[Date]) * 100
     + MONTH(Dim_Date[Date])
 ```
-
 This ensures labels such as Jan 2024, Feb 2024 and Jan 2025 appear in the correct chronological order.
 
-Data Model
-
+# Data Model
 The Power BI model follows a fact-and-dimension structure.
 
 Dimension tables provide filtering for:
@@ -110,10 +108,10 @@ Date → Hospital → Specialty
 
 while the fact tables contain the waiting-list and patient-flow activity used by the dashboard measures.
 
-This structure allows slicers to consistently filter KPIs and visualisations across the report.
+This structure allows slicers to filter KPIs and visualisations across the report consistently.
 
-Key DAX Measures
-
+# Key DAX Measures
+```dax
 Several DAX measures were created to support the analysis.
 
 Current Waiting List
@@ -122,9 +120,10 @@ CALCULATE(
     COUNTROWS(Fact_Waiting_List),
     Fact_Waiting_List[Pathway_Status] <> "Completed"
 )
+```
 
-Completed pathways are excluded so the KPI represents the active waiting-list backlog.
-
+# Completed pathways are excluded so the KPI represents the active waiting-list backlog.
+```dax
 Patients Waiting Over 18 Weeks
 Patients Waiting Over 18 Weeks =
 CALCULATE(
@@ -132,21 +131,30 @@ CALCULATE(
     Fact_Waiting_List[Pathway_Status] <> "Completed",
     Fact_Waiting_List[Waiting_Days] > 126
 )
-% Waiting Over 18 Weeks
+```
+
+# % Waiting Over 18 Weeks
+```dax
 % Waiting Over 18 Weeks =
 DIVIDE(
     [Patients Waiting Over 18 Weeks],
     [Current Waiting List],
     0
 )
-Patients Waiting Over 52 Weeks
+```
+
+# Patients Waiting Over 52 Weeks
+```dax
 Patients Waiting Over 52 Weeks =
 CALCULATE(
     COUNTROWS(Fact_Waiting_List),
     Fact_Waiting_List[Pathway_Status] <> "Completed",
     Fact_Waiting_List[Waiting_Days] > 364
 )
-% Waiting Over 52 Weeks
+```
+
+# % Waiting Over 52 Weeks
+```dax
 % Waiting Over 52 Weeks =
 COALESCE(
     DIVIDE(
@@ -156,6 +164,7 @@ COALESCE(
     ),
     0
 )
+```
 
 COALESCE was used so filter combinations with no qualifying 52+ week records display 0% instead of a blank value.
 
