@@ -53,3 +53,48 @@ The solution includes:
 The dashboard enables users to move from a high-level operational overview to more detailed waiting-list and patient-flow analysis.
 
 ---
+
+# Dataset
+
+The project uses synthetic NHS-style data covering waiting-list and patient-flow activity across multiple hospitals and specialties.
+
+The model contains fact and dimension tables including:
+
+Fact tables
+
+- Fact_Waiting_List
+- Fact_Patient_Flow
+
+Dimension tables
+
+- Dim_Date
+- Dim_Hospital
+- Dim_Specialty
+
+The data covers 2024–2025.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
