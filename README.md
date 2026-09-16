@@ -181,7 +181,29 @@ Current Average Waiting Days
 30-Day Readmission Rate
 Emergency Admissions
 
+# Dashboard
+## Page 1 — Executive Overview
 
+The Executive Overview provides a high-level view of NHS-style waiting-list and hospital activity.
+
+KPIs
+- Total Admissions
+- Unique Patients
+- Current Waiting List
+- Current Average Waiting Days
+- % Waiting Over 18 Weeks
+- % Waiting Over 52 Weeks
+- Visualisations
+- Current Waiting List by Month
+- Total Admissions by Admission Type
+- Current Waiting List by Specialty
+- Total Admissions by Hospital
+- Current Waiting List by Waiting Band
+- 52+ Week Wait Rate by Specialty
+
+Interactive slicers allow analysis by:
+
+Year | Hospital | Specialty
 
 
 
