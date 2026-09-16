@@ -1,7 +1,7 @@
 # NHS-Waiting-List-Patient-Flow-Analysis
 Power BI project analysing synthetic NHS waiting list, patient flow and hospital capacity data, including long-wait trends, admissions, discharges, bed utilisation and readmissions.
 
-# Project Overview
+## Project Overview
 
 This project analyses a synthetic NHS-style dataset to explore waiting-list performance, patient flow, hospital capacity and long waiting times.
 
@@ -54,7 +54,7 @@ The dashboard enables users to move from a high-level operational overview to mo
 
 ---
 
-# Dataset
+## Dataset
 
 The project uses synthetic NHS-style data covering waiting-list and patient-flow activity across multiple hospitals and specialties.
 
@@ -73,7 +73,7 @@ Dimension tables
 
 The data covers 2024–2025.
 
-# Data Preparation
+## Data Preparation
 
 Before building the dashboard, the data was reviewed and prepared for analysis.
 
@@ -99,7 +99,7 @@ YEAR(Dim_Date[Date]) * 100
 ```
 This ensures labels such as Jan 2024, Feb 2024 and Jan 2025 appear in the correct chronological order.
 
-# Data Model
+## Data Model
 The Power BI model follows a fact-and-dimension structure.
 
 Dimension tables provide filtering for:
@@ -110,7 +110,7 @@ while the fact tables contain the waiting-list and patient-flow activity used by
 
 This structure allows slicers to filter KPIs and visualisations across the report consistently.
 
-# Key DAX Measures
+## Key DAX Measures
 ```dax
 Several DAX measures were created to support the analysis.
 
@@ -122,7 +122,7 @@ CALCULATE(
 )
 ```
 
-# Completed pathways are excluded so the KPI represents the active waiting-list backlog.
+## Completed pathways are excluded so the KPI represents the active waiting-list backlog.
 ```dax
 Patients Waiting Over 18 Weeks
 Patients Waiting Over 18 Weeks =
@@ -133,7 +133,7 @@ CALCULATE(
 )
 ```
 
-# % Waiting Over 18 Weeks
+## % Waiting Over 18 Weeks
 ```dax
 % Waiting Over 18 Weeks =
 DIVIDE(
@@ -143,7 +143,7 @@ DIVIDE(
 )
 ```
 
-# Patients Waiting Over 52 Weeks
+## Patients Waiting Over 52 Weeks
 ```dax
 Patients Waiting Over 52 Weeks =
 CALCULATE(
@@ -153,7 +153,7 @@ CALCULATE(
 )
 ```
 
-# % Waiting Over 52 Weeks
+## % Waiting Over 52 Weeks
 ```dax
 % Waiting Over 52 Weeks =
 COALESCE(
