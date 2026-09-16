@@ -68,6 +68,7 @@ Fact tables
 Dimension tables
 
 - Dim_Date
+- Dim_Patient
 - Dim_Hospital
 - Dim_Specialty
 
