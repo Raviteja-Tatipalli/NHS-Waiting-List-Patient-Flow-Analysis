@@ -96,6 +96,7 @@ A chronological sorting field was also created for Month-Year reporting:
 YearMonthSort =
 YEAR(Dim_Date[Date]) * 100
     + MONTH(Dim_Date[Date])
+```
 
 This ensures labels such as Jan 2024, Feb 2024 and Jan 2025 appear in the correct chronological order.
 
