@@ -193,7 +193,8 @@ KPIs
 - Current Average Waiting Days
 - % Waiting Over 18 Weeks
 - % Waiting Over 52 Weeks
-- Visualisations
+  
+Visualisations
 - Current Waiting List by Month
 - Total Admissions by Admission Type
 - Current Waiting List by Specialty
@@ -204,6 +205,101 @@ KPIs
 Interactive slicers allow analysis by:
 
 Year | Hospital | Specialty
+
+## Page 2 - Patient Flow and Capacity
+
+This page focuses on operational patient flow and hospital capacity.
+
+KPIs
+- Total Admissions
+- Total Discharges
+- Average length of stay
+- Total bed days
+- 30-day readmission
+- % Readmission rate
+
+Visualisation
+- Total Admissions and Total Discharges by Month
+- Average Length of Stay by Hospital
+- Total Bed Days by Hospital
+- 30-Day Readmissions by Hospital
+- Emergency Admissions by Hospital
+- Total Discharges by Discharge Status
+
+## Page 3 — Waiting List & Pathway Analysis
+
+This page provides deeper analysis of the waiting-list backlog.
+
+KPIs
+- Current Waiting List
+- Current Average Waiting Days
+- Patients Waiting Over 18 Weeks
+- % Waiting Over 18 Weeks
+- Patients Waiting Over 52 Weeks
+- % Waiting Over 52 Weeks
+
+Visualisations
+- Current Waiting List by Month
+- Current Waiting List by Specialty
+- Waiting Over 18 Weeks by Specialty
+- Waiting Over 52 Weeks by Specialty
+- Pathways by Status
+- Current Waiting List by Waiting Band
+  
+# Key Findings
+1. Significant long-wait backlog
+- About 73.4% of the current waiting list exceeded 18 weeks, and about 41.9% exceeded 52 weeks.
+This indicates that long-wait pathways represent a substantial proportion of the active backlog.
+
+2. Backlog increased toward the end of the period
+- Monthly analysis showed fluctuations throughout the reporting period, with higher waiting-list volumes appearing toward the later months of 2025.
+
+3. Waiting pressure spans multiple specialties
+- Waiting-list volumes and long-wait pathways were distributed across several specialties rather than being overwhelmingly concentrated in one clinical area.
+
+4. Emergency admissions represent the largest admission type
+- Of approximately 15K admissions, Emergency admissions formed the largest category, ahead of Elective and Day Case activity.
+
+5. Admissions and discharges were broadly balanced
+- Approximately 15K admissions and 15K discharges were recorded.
+- Monthly admission and discharge trends also remained closely aligned across the reporting period.
+
+6. Approximately 52K bed days were recorded
+- Average Length of Stay was approximately 3.4 days, generating around 52K total bed days.
+- Hospital-level length-of-stay and bed-day measures were relatively similar across the hospitals in the synthetic dataset.
+
+7. 30-day readmission rate was approximately 9.3%
+- Approximately 1K 30-day readmissions were recorded, corresponding to a 9.3% readmission rate.
+- Hospital-level readmission volumes were relatively evenly distributed.
+
+8. Home was the dominant discharge destination
+- The majority of recorded discharges resulted in patients returning Home, while Community Care, Transfers and other outcomes represented smaller shares.
+
+## Overall Analysis
+
+The analysis identified long waiting times as the most prominent operational issue within the synthetic dataset.
+
+Although admissions and discharges remained broadly balanced and hospital-level capacity measures were relatively consistent, a substantial proportion of the active waiting list exceeded both the 18-week and 52-week thresholds.
+
+The analysis also showed increasing waiting-list pressure toward the end of the reporting period, highlighting the importance of monitoring long-wait pathways across multiple specialties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
