@@ -62,15 +62,15 @@ The model contains fact and dimension tables including:
 
 Fact tables
 
-- Fact_Waiting_List
-- Fact_Patient_Flow
+- `Fact_Waiting_List.csv`
+- `Fact_Patient_Flow.csv`
 
 Dimension tables
 
-- Dim_Date
-- Dim_Patient
-- Dim_Hospital
-- Dim_Specialty
+- `Dim_Date.csv`
+- `Dim_Patient.csv`
+- `Dim_Hospital.csv`
+- `Dim_Specialty.csv`
 
 The data covers 2024–2025.
 
