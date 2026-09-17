@@ -1,0 +1,7 @@
+Hospital_ID,Hospital_Name,Region,Hospital_Type,Bed_Capacity
+H01,Northgate General Hospital,North West,Acute,520
+H02,Riverside University Hospital,North West,Teaching,680
+H03,Eastborough District Hospital,Yorkshire,Acute,430
+H04,Westmoor Medical Centre,West Midlands,Acute,390
+H05,Southbank University Hospital,London,Teaching,720
+H06,Coastal General Hospital,South East,Acute,460

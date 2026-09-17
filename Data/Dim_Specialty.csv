@@ -1,0 +1,11 @@
+Specialty_ID,Specialty_Name,Service_Group,Target_Wait_Weeks
+S01,Cardiology,Medicine,18
+S02,Trauma & Orthopaedics,Surgery,18
+S03,Dermatology,Medicine,18
+S04,Ophthalmology,Surgery,18
+S05,ENT,Surgery,18
+S06,Gynaecology,Women & Children,18
+S07,Urology,Surgery,18
+S08,General Surgery,Surgery,18
+S09,Gastroenterology,Medicine,18
+S10,Neurology,Medicine,18
