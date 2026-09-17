@@ -105,9 +105,9 @@ The Power BI model follows a fact-and-dimension structure.
 
 Dimension tables provide filtering for:
 
-Date → Hospital → Specialty
+Date → Hospital → Patient → Specialty
 
-while the fact tables contain the waiting-list and patient-flow activity used by the dashboard measures.
+while the fact tables contain the `waiting-list` and `patient-flow` activities used by the dashboard measures.
 
 This structure allows slicers to filter KPIs and visualisations across the report consistently.
 
