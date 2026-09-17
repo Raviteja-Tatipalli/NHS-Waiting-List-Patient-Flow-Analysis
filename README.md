@@ -234,7 +234,7 @@ Visualisation
 ## Dashboard
 ### Patient Flow and Capacity
 
-![Patient Flow & Capacity](images/Patient%20Flow&Capacity.png)
+![Patient Flow & Capacity](images/Patient%20Flow%20%26%20Capacity.png)
 
 ## Page 3 — Waiting List & Pathway Analysis
 
@@ -255,7 +255,9 @@ Visualisations
 - Waiting Over 52 Weeks by Specialty
 - Pathways by Status
 - Current Waiting List by Waiting Band
-  
+
+![Waiting List & Pathways Analysis](images/Waiting%20List%20%26%20Pathway%20Analysis.png)
+
 # Key Findings
 1. Significant long-wait backlog
 - About 73.4% of the current waiting list exceeded 18 weeks, and about 41.9% exceeded 52 weeks.
