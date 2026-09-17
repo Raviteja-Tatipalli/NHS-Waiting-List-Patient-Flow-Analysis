@@ -256,6 +256,9 @@ Visualisations
 - Pathways by Status
 - Current Waiting List by Waiting Band
 
+## Dashboard
+### Waiting List & Pathway Analysis
+
 ![Waiting List & Pathways Analysis](images/Waiting%20List%20%26%20Pathway%20Analysis.png)
 
 # Key Findings
