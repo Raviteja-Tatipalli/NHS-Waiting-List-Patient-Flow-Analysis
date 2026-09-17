@@ -283,6 +283,51 @@ Although admissions and discharges remained broadly balanced and hospital-level 
 
 The analysis also showed increasing waiting-list pressure toward the end of the reporting period, highlighting the importance of monitoring long-wait pathways across multiple specialties.
 
+Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+Power BI
+
+Interactive dashboard development
+KPI cards
+Line, bar, column and donut charts
+Slicers and filter interactions
+Visual formatting
+Drill-down analysis
+
+## DAX
+1. CALCULATE
+2. COUNTROWS
+DIVIDE
+COALESCE
+Filter context
+Conditional calculations
+Time-based sorting
+
+## Data Modelling
+Fact and dimension tables
+Date dimensions
+Table relationships
+Filter propagation
+Star-schema concepts
+
+## Data Analysis
+Waiting-list analysis
+Patient-flow analysis
+Hospital performance comparison
+Trend analysis
+Capacity analysis
+Readmission analysis
+KPI validation
+
+## Data Quality
+Missing-value checks
+Date validation
+Data-type validation
+Business-rule validation
+Measure validation
+
 
 
 
