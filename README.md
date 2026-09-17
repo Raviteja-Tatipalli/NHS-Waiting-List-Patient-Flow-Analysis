@@ -206,6 +206,11 @@ Interactive slicers allow analysis by:
 
 Year | Hospital | Specialty
 
+## Dashboard Screenshots
+### Executive Overview
+
+![Executive Overview](images/Executive%20Overview.png)
+
 ## Page 2 - Patient Flow and Capacity
 
 This page focuses on operational patient flow and hospital capacity.
