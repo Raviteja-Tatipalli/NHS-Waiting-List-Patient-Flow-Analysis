@@ -234,7 +234,7 @@ Visualisation
 ## Dashboard
 ### Patient Flow and Capacity
 
-![Patient Flow & Capacity]
+![Patient Flow & Capacity](images/Patient%20Flow&Capacity.png)
 
 ## Page 3 — Waiting List & Pathway Analysis
 
