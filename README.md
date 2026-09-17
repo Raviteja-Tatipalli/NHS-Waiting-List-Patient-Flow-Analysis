@@ -283,53 +283,57 @@ Although admissions and discharges remained broadly balanced and hospital-level 
 
 The analysis also showed increasing waiting-list pressure toward the end of the reporting period, highlighting the importance of monitoring long-wait pathways across multiple specialties.
 
-Skills Demonstrated
-
+## Skills Demonstrated
 This project demonstrates practical experience with:
-
-Power BI
-
-Interactive dashboard development
-KPI cards
-Line, bar, column and donut charts
-Slicers and filter interactions
-Visual formatting
-Drill-down analysis
+### Power BI
+2. Interactive dashboard development
+3. KPI cards
+4. Line, bar, column and donut charts
+5. Slicers and filter interactions
+6. Visual formatting
+7. Drill-down analysis
 
 ## DAX
 1. CALCULATE
 2. COUNTROWS
-DIVIDE
-COALESCE
-Filter context
-Conditional calculations
-Time-based sorting
+3. DIVIDE
+4. COALESCE
+5. Filter context
+6. Conditional calculations
+7. Time-based sorting
 
 ## Data Modelling
-Fact and dimension tables
-Date dimensions
-Table relationships
-Filter propagation
-Star-schema concepts
+1. Fact and dimension tables
+2. Date dimensions
+3. Table relationships
+4. Filter propagation
+5. Star-schema concepts
 
 ## Data Analysis
-Waiting-list analysis
-Patient-flow analysis
-Hospital performance comparison
-Trend analysis
-Capacity analysis
-Readmission analysis
-KPI validation
+1. Waiting-list analysis
+2. Patient-flow analysis
+3. Hospital performance comparison
+4. Trend analysis
+5. Capacity analysis
+6. Readmission analysis
+7. KPI validation
 
 ## Data Quality
-Missing-value checks
-Date validation
-Data-type validation
-Business-rule validation
-Measure validation
+1. Missing-value checks
+2. Date validation
+3. Data-type validation
+4. Business-rule validation
+5. Measure validation
+---
 
+## Tools Used
+- Power BI Desktop
+- Power Query
+- DAX
+- Excel / CSV data sources
 
-
+## Project Disclaimer
+This project uses synthetic data created for portfolio and learning purposes. It does not contain real patient information and should not be interpreted as representing actual NHS organisations or performance.
 
 
 
