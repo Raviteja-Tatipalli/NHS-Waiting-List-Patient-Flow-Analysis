@@ -231,6 +231,11 @@ Visualisation
 - Emergency Admissions by Hospital
 - Total Discharges by Discharge Status
 
+## Dashboard
+### Patient Flow and Capacity
+
+![Patient Flow & Capacity]
+
 ## Page 3 — Waiting List & Pathway Analysis
 
 This page provides deeper analysis of the waiting-list backlog.
