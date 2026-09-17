@@ -111,6 +111,11 @@ while the fact tables contain the `waiting-list` and `patient-flow` activities u
 
 This structure allows slicers to filter KPIs and visualisations across the report consistently.
 
+## Dashboard
+### Data model
+
+![Power BI Data Model](images/Data%20Model.png)
+
 ## Key DAX Measures
 ```dax
 Several DAX measures were created to support the analysis.
